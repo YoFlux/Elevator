@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainShow</class>
+ <widget class="QMainWindow" name="MainShow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>862</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>862</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>862</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainShow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background:rgba(190,190,190,150);
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="building">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgba(255,255,255,150);
+background-image: url(:/new/prefix1/imgs/background.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="elevator">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>720</y>
+      <width>220</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe 黑体 Std R</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgba(255, 255, 255, 200);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>Elevator</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>810</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 255, 255);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>开始模拟</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>810</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 255, 255);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>暂停模拟</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>810</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 255, 255);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>X1</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
