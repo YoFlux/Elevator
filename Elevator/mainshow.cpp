@@ -1,8 +1,3 @@
-/*
- * 作者：莫一流
- * 学号：20182131047
- * 题目：41-随机电梯使用场景模拟
- */
 #include "mainshow.h"
 #include "ui_mainshow.h"
 #include <QDebug>
